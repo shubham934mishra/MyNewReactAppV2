@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#1a1924",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#fff",
+        "fontSize": 22,
+        "height": 30,
+        "marginBottom": 20,
+      }
+    }
+  >
+    Welcome,
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#1a1924",
+        "flex": 1,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 22,
+          "height": 30,
+          "marginBottom": 20,
+        }
+      }
+    >
+      Merging The objects:
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      1st Object : 
+      {"test":"testCase1","value":90}
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      2nd Object : 
+      {"name":"Shubham","age":25}
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      Results : 
+      {"test":"testCase1","value":90,"name":"Shubham","age":25}
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#1a1924",
+        "flex": 1,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 22,
+          "height": 30,
+          "marginBottom": 20,
+        }
+      }
+    >
+      Merging The Arrays:
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      1st Array : 
+      [1,2,3,4,5]
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      2nd Array : 
+      ["arr1","arr2","arr3","arr4","arr5"]
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      Results : 
+      [1,2,3,4,5,"arr1","arr2","arr3","arr4","arr5"]
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#1a1924",
+        "flex": 1,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 22,
+          "height": 30,
+          "marginBottom": 20,
+        }
+      }
+    >
+      Concatination:
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      1st 
+      number
+       : 
+      40
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      2nd 
+      number
+       : 
+      90
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#fff",
+          "fontSize": 15,
+        }
+      }
+    >
+      Results : 
+      130
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
